@@ -24,3 +24,4 @@ const galleryList = images.reduce((acc, { url, alt }) => {
 }, "");
 
 gallery.insertAdjacentHTML("afterbegin", galleryList);
+// console.log(galleryList);
